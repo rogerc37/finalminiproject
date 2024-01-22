@@ -10,7 +10,23 @@
 </head>
 <body>
     <h1>Roll Roll Roll Your Dice</h1>
-    <form>Number of Trials:<input type="number" id = "trials" min="1" max="100"></form>
-    <form>Number of Dice:<input type="number" id = "numrolls" min="1" max="3"></form>
+    <form>Number of Trials:<input type="number" id = "trials" min="1" max="100" value="1"></form>
+    <form>Number of Dice:<input type="number" id = "numrolls" min="1" max="3" value="3"></form>
+    <button id="button">ROLL DICE</button>
+    <p></p>
+    <table id = "stats" style="width:100%">
+        <tr>
+            <th># of Dice Rolled</th>
+            <th>Total</th>
+            <th>Mean</th>
+            <th>Median</th>
+            <th>Mode</th>
+            <th>% of Doubles</th>
+            <th>% of Triples</th>
+            <th>Cumulative Mean</th>
+            <th>Cumulative Median</th>
+            <th>Cumulative Mode</th>
+        </tr>
+    </table>
 </body>
 </html>
